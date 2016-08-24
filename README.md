@@ -16,7 +16,7 @@ https://github.com/AnyaSmirnova/FemiCraft/wiki
 Periodically this page will change!
 
 Download list here:
-*Link soon*
+http://adf.ly/1dOWs6
 Periodically we will upload new versions, notifying you about them in our Twitter (https://twitter.com/Anya_Sm1rnova)!
 
 All good and enjoyable game!
