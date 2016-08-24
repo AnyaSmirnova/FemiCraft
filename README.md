@@ -12,7 +12,7 @@ ATTENTION! In the client there are no scenes of violence, but to download I reco
 =
 
 Detailed information about the client you can find here:
-https://github.com/AnyaSmirnova/FemiCraft/wiki
+https://github.com/AnyaSmirnova/FemiCraft/wiki/FemiCraft-Wiki
 Periodically this page will change!
 
 Download list here:
