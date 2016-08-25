@@ -1,4 +1,4 @@
-Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)
 
 Copyright (c) 2016 Anya_Smirnova
 
