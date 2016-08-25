@@ -8,7 +8,7 @@ This is why we changed not only the skin, but also turned the whole MineCraft:
 swords were replaced by knives, has made lots of women's clothing, kitchen items... 
 And we not going to stop! We have plans for many more updates!
 
-ATTENTION! In the client there are no scenes of violence, but to download I recommend to people 16 years and over. You can download and to 16, but take responsibility for yourself!
+ATTENTION! In the client there are no scenes of violence, but to download I recommend to people 16 years and over. You can download and to 16, but take responsibility for yourself! (FemiCraft Wiki also contains materials 16 years of age and older!)
 =
 
 Detailed information about the client you can find here:
