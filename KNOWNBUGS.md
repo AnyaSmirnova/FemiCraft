@@ -1,4 +1,3 @@
-- Knives are too huge, if you look from a third party
 - Bottles and knives disappear without a trace when you use them in crafts
 - Plowed dirt may behave incorrectly
 - It is impossible to get some achievements in connection with the removal of crafting wooden knife
