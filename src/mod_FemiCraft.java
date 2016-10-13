@@ -2,13 +2,11 @@ package net.minecraft.src;
 
 import java.util.*;
 
-// Welcome in my code! @Anya_Smirnova
 public class mod_FemiCraft extends BaseMod
         {
 
-// Added items
 public static final Item PigmanSword = (new ItemSword(203, EnumToolMaterial.HELL)).setItemName("PigmanSword");
-public static final Item DirtySalt = new FCItem(5000).setItemName("DirtySalt");
+public static final Item DirtySalt = new Item(5000).setItemName("DirtySalt");
 public static final Item Salt = new ItemFood(5001, 1, 0.1F, false).setPotionEffect(Potion.harm.id, 1, 0, 0.2F).setItemName("Salt");
 public static final Item ButterBottle = new FCBottle(5004).setItemName("ButterBottle");
 public static final Item CutApple = new ItemFood(5005, 2, 0.1F, false).setItemName("CutApple");
@@ -20,55 +18,53 @@ public static final Item Potato = new ItemFood(5010, 1, 0.2F, false).setItemName
 public static final Item PoisonousPotato = new ItemFood(5011, 2, 0.4F, false).setPotionEffect(Potion.poison.id, 4, 0, 0.6F).setItemName("PoisonousPotato");
 public static final Item BakedPotato = new ItemFood(5012, 6, 0.6F, false).setItemName("BakedPotato");
 public static final Item Carrot = new ItemFood(5013, 3, 0.3F, false).setItemName("Carrot");
-public static final Item RawFrenchFries = new FCItem(5014).setItemName("RawFrenchFries");
+public static final Item RawFrenchFries = new Item(5014).setItemName("RawFrenchFries");
 public static final Item FrenchFries = new ItemFood(5015, 6, 0.7F, false).setItemName("FrenchFries");
-public static final Item Cheese = new FCItem(5016).setItemName("Cheese");
+public static final Item Cheese = new Item(5016).setItemName("Cheese");
 public static final Item Tomato = new ItemFood(5017, 2, 0.4F, false).setItemName("Tomato");
 public static final Item Mayonnaise = new FCBottle(5021).setItemName("Mayonnaise");
 public static final Item Ketchup = new FCBottle(5022).setItemName("Ketchup");
-public static final Item Meal = new FCItem(5023).setItemName("Meal");
-public static final Item RawCookie = new FCItem(5024).setItemName("RawCookie");
+public static final Item Meal = new Item(5023).setItemName("Meal");
+public static final Item RawCookie = new Item(5024).setItemName("RawCookie");
 public static final Item RawCake = new FCCake(5025).setItemName("RawCake");
-public static final Item RawBread = new FCItem(5026).setItemName("RawBread");
+public static final Item RawBread = new Item(5026).setItemName("RawBread");
 public static final Item ApplePie = new ItemFood(5027, 6, 0.2F, false).setItemName("ApplePie");
 public static final Item RawBacon = new ItemFood(5028, 1, 0.1F, true).setItemName("RawBacon");
 public static final Item Bacon = new ItemFood(5029, 2, 0.2F, true).setItemName("Bacon");
 public static final Item BaconAndEggs = new ItemFood(5030, 8, 0.8F, false).setItemName("BaconAndEggs");
 public static final Item Sausage = new ItemFood(5031, 1, 0.1F, true).setItemName("Sausage");
 public static final Item FriedSausage = new ItemFood(5032, 2, 0.2F, true).setItemName("FriedSausage");
-public static final Item Dough = new FCItem(5033).setItemName("Dough");
-public static final Item RawSausageInTheDough = new FCItem(5034).setItemName("RawSausageInTheDough");
+public static final Item Dough = new Item(5033).setItemName("Dough");
+public static final Item RawSausageInTheDough = new Item(5034).setItemName("RawSausageInTheDough");
 public static final Item SausageInTheDough = new ItemFood(5035, 2, 0.2F, false).setItemName("SausageInTheDough");
-public static final Item RawHotDog = new FCItem(5036).setItemName("RawHotDog");
+public static final Item RawHotDog = new Item(5036).setItemName("RawHotDog");
 public static final Item HotDog = new ItemFood(5037, 4, 0.4F, false).setItemName("HotDog");
-public static final Item CutSausage = new FCItem(5038).setItemName("CutSausage");
+public static final Item CutSausage = new Item(5038).setItemName("CutSausage");
 public static final Item Grater = new FCGrater(5039).setItemName("Grater");
-public static final Item GratedCheese = new FCItem(5040).setItemName("GratedCheese");
+public static final Item GratedCheese = new Item(5040).setItemName("GratedCheese");
 public static final Item RawPizza = new FCPizza(5041).setItemName("RawPizza");
 public static final Item Pizza = new FCPizza(5042).setItemName("Pizza");
 public static final Item CutPizza = new ItemFood(5043, 10, 1F, false).setItemName("CutPizza");
-public static final Item RawCutlet = new FCItem(5044).setItemName("RawCutlet");
+public static final Item RawCutlet = new Item(5044).setItemName("RawCutlet");
 public static final Item Cutlet = new ItemFood(5045, 3, 0.3F, true).setItemName("Cutlet");
-public static final Item RawBreadRoll = new FCItem(5046).setItemName("RawBreadRoll");
+public static final Item RawBreadRoll = new Item(5046).setItemName("RawBreadRoll");
 public static final Item BreadRoll = new ItemFood(5047, 3, 0.4F, false).setItemName("BreadRoll");
 public static final Item CutBreadRoll = new ItemFood(5048, 1, 0.2F, false).setItemName("CutBreadRoll");
 public static final Item Lettuce = new ItemFood(5049, 2, 0.1F, false).setItemName("Lettuce");
-public static final Item CutTomato = new FCItem(5050).setItemName("CutTomato");
+public static final Item CutTomato = new Item(5050).setItemName("CutTomato");
 public static final Item Hamburger = new ItemFood(5051, 8, 1.2F, false).setItemName("Hamburger");
 public static final Item AppleJuice = new FCJuice(5052).setItemName("AppleJuice");
 public static final Item CarrotJuice = new FCJuice(5053).setItemName("CarrotJuice");
 public static final Item PumpkinJuice = new FCJuice(5054).setItemName("PumpkinJuice");
-public static final Item RawRusks = new FCItem(5055).setItemName("RawRusks");
+public static final Item RawRusks = new Item(5055).setItemName("RawRusks");
 public static final Item Rusks = new ItemFood(5056, 1, 0.1F, false).setItemName("Rusks");
 public static final Item CaesarSalad = new FCSalad(5057, 8).setPotionEffect(Potion.regeneration.id, 10, 0, 1F).setItemName("CaesarSalad");
-public static final Item CutCarrot = new FCItem(5058).setItemName("CutCarrot");
+public static final Item CutCarrot = new Item(5058).setItemName("CutCarrot");
 public static final Item VegetableSalad = new FCSalad(5059, 4).setPotionEffect(Potion.regeneration.id, 5, 0, 1F).setItemName("VegetableSalad");
 public static final Item CarrotSoup = new FCSoup(5060, 6).setItemName("CarrotSoup");
 
-// Added blocks
 public static final Block SaltOre = new FCOre(160, 0).setStepSound(Block.soundStoneFootstep).setBlockName("SaltOre").setHardness(3F).setResistance(15F);
 
-// Ores generation
 public void generateSurface(World world, Random random, int i, int j)
 {
         for (int k = 0; k < 10; k++)
@@ -80,7 +76,6 @@ public void generateSurface(World world, Random random, int i, int j)
         }
 }
 
-// New fuels
 public int addFuel(int par1, int par2)
 {
     if (par1 == mod_FemiCraft.ButterBottle.shiftedIndex)
@@ -93,7 +88,6 @@ public int addFuel(int par1, int par2)
 public void load()
         {
 
-// Items textures
 PigmanSword.iconIndex = ModLoader.addOverride("/gui/items.png", "/FemiCraft/textures/items/pigmansword.png");
 DirtySalt.iconIndex = ModLoader.addOverride("/gui/items.png", "/FemiCraft/textures/items/dirtysalt.png");
 Salt.iconIndex = ModLoader.addOverride("/gui/items.png", "/FemiCraft/textures/items/salt.png");
@@ -152,75 +146,10 @@ CutCarrot.iconIndex = ModLoader.addOverride("/gui/items.png", "/FemiCraft/textur
 VegetableSalad.iconIndex = ModLoader.addOverride("/gui/items.png", "/FemiCraft/textures/items/vegetablesalad.png");
 CarrotSoup.iconIndex = ModLoader.addOverride("/gui/items.png", "/FemiCraft/textures/items/carrotsoup.png");
 
-// Blocks textures
 SaltOre.blockIndexInTexture = ModLoader.addOverride("/terrain.png", "/FemiCraft/textures/blocks/saltore.png");
 
-// Registered blocks
 ModLoader.registerBlock(SaltOre);
 
-// Items names
-ModLoader.addName(PigmanSword, "Golden Sword");
-ModLoader.addName(DirtySalt, "Dirty Salt");
-ModLoader.addName(Salt, "Salt");
-ModLoader.addName(ButterBottle, "Butter Bottle");
-ModLoader.addName(CutApple, "Cut Apple");
-ModLoader.addName(ScrambledEggs, "Scrambled Eggs");
-ModLoader.addName(Chocolate, "Chocolate Slice");
-ModLoader.addName(MilkBottle, "Milk Bottle");
-ModLoader.addName(PumpkinPie, "Pumpkin Pie");
-ModLoader.addName(Potato, "Potato");
-ModLoader.addName(PoisonousPotato, "Poisonous Potato");
-ModLoader.addName(BakedPotato, "Baked Potato");
-ModLoader.addName(Carrot, "Carrot");
-ModLoader.addName(RawFrenchFries, "Raw French Fries");
-ModLoader.addName(FrenchFries, "French Fries");
-ModLoader.addName(Cheese, "Cheese");
-ModLoader.addName(Tomato, "Tomato");
-ModLoader.addName(Mayonnaise, "Mayonnaise");
-ModLoader.addName(Ketchup, "Ketchup");
-ModLoader.addName(Meal, "Meal");
-ModLoader.addName(RawCookie, "Raw Cookie");
-ModLoader.addName(RawCake, "Raw Cake");
-ModLoader.addName(RawBread, "Raw Bread");
-ModLoader.addName(ApplePie, "Apple Pie");
-ModLoader.addName(RawBacon, "Raw Bacon");
-ModLoader.addName(Bacon, "Bacon");
-ModLoader.addName(BaconAndEggs, "Bacon and Eggs");
-ModLoader.addName(Sausage, "Sausage");
-ModLoader.addName(FriedSausage, "Fried Sausage");
-ModLoader.addName(Dough, "Dough");
-ModLoader.addName(RawSausageInTheDough, "Raw Sausage in the Dough");
-ModLoader.addName(SausageInTheDough, "Sausage in the Dough");
-ModLoader.addName(RawHotDog, "Raw Hot Dog");
-ModLoader.addName(HotDog, "Hot Dog");
-ModLoader.addName(CutSausage, "Cut Sausage");
-ModLoader.addName(Grater, "Grater");
-ModLoader.addName(GratedCheese, "Grated Cheese");
-ModLoader.addName(RawPizza, "Raw Pizza");
-ModLoader.addName(Pizza, "Pizza");
-ModLoader.addName(CutPizza, "Cut Pizza");
-ModLoader.addName(RawCutlet, "Raw Cutlet");
-ModLoader.addName(Cutlet, "Cutlet");
-ModLoader.addName(RawBreadRoll, "Raw Bread Roll");
-ModLoader.addName(BreadRoll, "Bread Roll");
-ModLoader.addName(CutBreadRoll, "Cut Bread Roll");
-ModLoader.addName(Lettuce, "Lettuce");
-ModLoader.addName(CutTomato, "Cut Tomato");
-ModLoader.addName(Hamburger, "Hamburger");
-ModLoader.addName(AppleJuice, "Apple Juice");
-ModLoader.addName(CarrotJuice, "Carrot Juice");
-ModLoader.addName(PumpkinJuice, "Pumpkin Juice");
-ModLoader.addName(RawRusks, "Raw Rusks");
-ModLoader.addName(Rusks, "Rusks");
-ModLoader.addName(CaesarSalad, "Caesar Salad");
-ModLoader.addName(CutCarrot, "Cut Carrot");
-ModLoader.addName(VegetableSalad, "Vegetable Salad");
-ModLoader.addName(CarrotSoup, "Carrot Soup");
-
-// Blocks names
-ModLoader.addName(SaltOre, "Salt Ore");
-
-// Recipes
 ModLoader.addRecipe(new ItemStack(mod_FemiCraft.ButterBottle, 1), new Object [] {"R", "B", 'R', Item.reed, 'B', Item.glassBottle});
 ModLoader.addRecipe(new ItemStack(mod_FemiCraft.Chocolate, 8), new Object [] {"CMC", 'C', new ItemStack(Item.dyePowder, 1, 3), 'M', mod_FemiCraft.MilkBottle});
 ModLoader.addRecipe(new ItemStack(mod_FemiCraft.MilkBottle, 8), new Object [] {"BBB", "BMB", "BBB", 'B', Item.glassBottle, 'M', Item.bucketMilk});
@@ -255,9 +184,7 @@ ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.CutBreadRoll, 2), new O
 ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.CutTomato, 1), new Object[] {Item.swordSteel, mod_FemiCraft.Tomato});
 ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.RawRusks, 8), new Object[] {Item.swordSteel, Item.bread});
 ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.CutCarrot, 1), new Object[] {Item.swordSteel, mod_FemiCraft.Carrot});
-
 ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.GratedCheese, 8), new Object[] {mod_FemiCraft.Cheese, mod_FemiCraft.Grater});
-
 ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.PumpkinPie, 1), new Object[] {Block.pumpkin, Item.egg, Item.sugar});
 ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.Meal, 1), new Object[] {Item.wheat});
 ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.ApplePie, 1), new Object[] {Item.appleRed, Item.egg, Item.sugar});
@@ -285,7 +212,6 @@ ModLoader.addSmelting(mod_FemiCraft.RawRusks.shiftedIndex, new ItemStack(mod_Fem
 
         }
 
-// Mod info
 public String getVersion()
             {
                 return "1.2.5";
