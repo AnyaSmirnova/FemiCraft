@@ -63,7 +63,7 @@ public static final Item CutCarrot = new Item(5058).setItemName("CutCarrot");
 public static final Item VegetableSalad = new ItemSoup(5059, 4).setPotionEffect(Potion.regeneration.id, 5, 0, 1F).setItemName("VegetableSalad");
 public static final Item CarrotSoup = new ItemSoup(5060, 6).setItemName("CarrotSoup");
 
-public static final Block SaltOre = new FCOre(160, 0).setStepSound(Block.soundStoneFootstep).setBlockName("SaltOre").setHardness(3F).setResistance(15F);
+public static final Block SaltOre = new BlockOre(160, 0).setStepSound(Block.soundStoneFootstep).setBlockName("SaltOre").setHardness(3F).setResistance(15F);
 
 public void generateSurface(World world, Random random, int i, int j)
 {
