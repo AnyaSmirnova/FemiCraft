@@ -7,8 +7,7 @@ public enum EnumToolMaterial
     IRON(2, 250, 6F, 2, 14),
     EMERALD(3, 1561, 8F, 3, 10),
     GOLD(0, 32, 12F, 0, 22),
-    // New material - "HELL". Created special for ZombiePigmans, heh. @Anya_Smirnova
-	HELL(0, 32, 12F, 1, 22);
+    HELL(0, 32, 12F, 1, 22);
 
     /**
      * The level of material this tool can harvest (3 = DIAMOND, 2 = IRON, 1 = STONE, 0 = IRON/GOLD)
