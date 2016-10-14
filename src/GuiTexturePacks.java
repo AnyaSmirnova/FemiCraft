@@ -33,7 +33,6 @@ public class GuiTexturePacks extends GuiScreen
      */
     public void initGui()
     {
-		// Deleted openFolder button. @Anya_Smirnova
         StringTranslate stringtranslate = StringTranslate.getInstance();
         controlList.add(new GuiSmallButton(5, width / 2 - 75, height - 48, stringtranslate.translateKey("gui.done")));
         mc.texturePackList.updateAvaliableTexturePacks();
