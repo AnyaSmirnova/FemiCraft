@@ -79,36 +79,35 @@ public class BlockTallGrass extends BlockFlower
     /**
      * Returns the ID of the items to drop on destruction.
      */
-	// Grass dropped 5 new items - potato, poisons potato, carrot, tomato, and lettuce. @Anya_Smirnova
     public int idDropped(int par1, Random par2Random, int par3)
     {
         if (par2Random.nextInt(48) == 0)
         {
-            return Item.seeds.shiftedIndex;
+        return Item.seeds.shiftedIndex;
         }
-		if (par2Random.nextInt(48) == 1)
-		{		
-		    return mod_FemiCraft.Potato.shiftedIndex;
-		}
-		if (par2Random.nextInt(48) == 2)
-		{		
-		    return mod_FemiCraft.PoisonousPotato.shiftedIndex;
-		}
-		if (par2Random.nextInt(48) == 3)
-		{
-			return mod_FemiCraft.Carrot.shiftedIndex;
-		}
-		if (par2Random.nextInt(48) == 4)
-		{
-			return mod_FemiCraft.Tomato.shiftedIndex;
-		}
-		if (par2Random.nextInt(48) == 5)
-		{
-			return mod_FemiCraft.Lettuce.shiftedIndex;
-		}
+	if (par2Random.nextInt(48) == 1)
+	{		
+	return mod_FemiCraft.Potato.shiftedIndex;
+	}
+	if (par2Random.nextInt(48) == 2)
+	{		
+	return mod_FemiCraft.PoisonousPotato.shiftedIndex;
+	}
+	if (par2Random.nextInt(48) == 3)
+	{
+        return mod_FemiCraft.Carrot.shiftedIndex;
+	}
+	if (par2Random.nextInt(48) == 4)
+	{
+	return mod_FemiCraft.Tomato.shiftedIndex;
+	}
+	if (par2Random.nextInt(48) == 5)
+	{
+	return mod_FemiCraft.Lettuce.shiftedIndex;
+	}
         else
         {
-            return -1;
+        return -1;
         }
     }
 
