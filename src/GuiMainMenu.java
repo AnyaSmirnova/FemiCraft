@@ -113,8 +113,7 @@ public class GuiMainMenu extends GuiScreen
         {
             splashText = "Happy birthday, Notch!";
         }
-		// OMG... This is... MY EGOISM!... @Anya_Smirnova
-		else if (calendar.get(2) + 1 == 9 && calendar.get(5) == 18)
+	else if (calendar.get(2) + 1 == 9 && calendar.get(5) == 18)
         {
             splashText = "Happy birthday, Anya_Smirnova!";
         }
@@ -127,7 +126,6 @@ public class GuiMainMenu extends GuiScreen
             splashText = "Happy new year!";
         }
 
-		// Deleted Multiplayer button. Quit Button now available forever! @Anya_Smirnova
         StringTranslate stringtranslate = StringTranslate.getInstance();
         int i = height / 4 + 48;
         controlList.add(new GuiButton(1, width / 2 - 100, i, stringtranslate.translateKey("menu.singleplayer")));
