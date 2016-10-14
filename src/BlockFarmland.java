@@ -4,7 +4,6 @@ import java.util.Random;
 
 public class BlockFarmland extends Block
 {	
-    // Now farmland - falling block! I copy BlockSand.java methods in this class. @Anya_Smirnova
     /** Do blocks fall instantly to where they stop or do they fall over time */
     public static boolean fallInstantly = false;
 	
@@ -209,9 +208,8 @@ public class BlockFarmland extends Block
     }
 
     /**
-     * Checks to see if the sand can fall into the block below it
+     * Checks to see if the farmland can fall into the block below it
      */
-	// In this class - not sand... Farmland! @Anya_Smirnova
     public static boolean canFallBelow(World par0World, int par1, int par2, int par3)
     {
         int i = par0World.getBlockId(par1, par2, par3);
