@@ -187,7 +187,6 @@ public class EntityList
         }
     }
 
-	// Added Spawn Eggs SnowMan and VillagerGolem in creative window. @Anya_Smirnova
     static
     {
         addMapping(net.minecraft.src.EntityItem.class, "Item", 1);
