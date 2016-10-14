@@ -224,7 +224,6 @@ public class EntityPigZombie extends EntityZombie
         return defaultHeldItem;
     }
 
-	// PigZombie used new sword - PigmanSword, special created for Pigmans! @Anya_Smirnova
     static
     {
         defaultHeldItem = new ItemStack(mod_FemiCraft.PigmanSword, 1);
