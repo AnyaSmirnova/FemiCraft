@@ -19,7 +19,6 @@ public class CraftingManager
         return instance;
     }
 
-	// Deleted standard cake and bread recipes. Added new in mod_FemiCraft.java. @Anya_Smirnova
     private CraftingManager()
     {
         recipes = new ArrayList();
@@ -150,10 +149,6 @@ public class CraftingManager
                 {
                     "#", '#', new ItemStack(Block.wood, 1, 3)
                 });
-        addRecipe(new ItemStack(Item.stick, 4), new Object[]
-                {
-                    "#", "#", '#', Block.planks
-                });
         addRecipe(new ItemStack(Block.torchWood, 4), new Object[]
                 {
                     "X", "#", 'X', Item.coal, '#', Item.stick
@@ -245,10 +240,6 @@ public class CraftingManager
         addRecipe(new ItemStack(Item.painting, 1), new Object[]
                 {
                     "###", "#X#", "###", '#', Item.stick, 'X', Block.cloth
-                });
-        addRecipe(new ItemStack(Item.appleGold, 1), new Object[]
-                {
-                    "###", "#X#", "###", '#', Item.goldNugget, 'X', Item.appleRed
                 });
         addRecipe(new ItemStack(Block.lever, 1), new Object[]
                 {
