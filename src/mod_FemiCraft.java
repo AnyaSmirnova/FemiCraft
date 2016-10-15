@@ -40,7 +40,7 @@ public static final Item SausageInTheDough = new ItemFood(5035, 2, 0.2F, false).
 public static final Item RawHotDog = new Item(5036).setItemName("RawHotDog");
 public static final Item HotDog = new ItemFood(5037, 4, 0.4F, false).setItemName("HotDog");
 public static final Item CutSausage = new Item(5038).setItemName("CutSausage");
-public static final Item Grater = new FCNonStackItem(5039).setItemName("Grater");
+public static final Item CarrotSoup = new ItemSoup(5039, 6).setItemName("CarrotSoup");
 public static final Item GratedCheese = new Item(5040).setItemName("GratedCheese");
 public static final Item RawPizza = new FCNonStackItem(5041).setItemName("RawPizza");
 public static final Item Pizza = new FCNonStackItem(5042).setItemName("Pizza");
@@ -61,7 +61,6 @@ public static final Item Rusks = new ItemFood(5056, 1, 0.1F, false).setItemName(
 public static final Item CaesarSalad = new ItemSoup(5057, 8).setPotionEffect(Potion.regeneration.id, 10, 0, 1F).setItemName("CaesarSalad");
 public static final Item CutCarrot = new Item(5058).setItemName("CutCarrot");
 public static final Item VegetableSalad = new ItemSoup(5059, 4).setPotionEffect(Potion.regeneration.id, 5, 0, 1F).setItemName("VegetableSalad");
-public static final Item CarrotSoup = new ItemSoup(5060, 6).setItemName("CarrotSoup");
 
 public static final Block SaltOre = new BlockOre(160, 0).setStepSound(Block.soundStoneFootstep).setBlockName("SaltOre").setHardness(3F).setResistance(15F);
 
@@ -123,7 +122,6 @@ SausageInTheDough.iconIndex = ModLoader.addOverride("/gui/items.png", "/FemiCraf
 RawHotDog.iconIndex = ModLoader.addOverride("/gui/items.png", "/FemiCraft/textures/items/rawhotdog.png");
 HotDog.iconIndex = ModLoader.addOverride("/gui/items.png", "/FemiCraft/textures/items/hotdog.png");
 CutSausage.iconIndex = ModLoader.addOverride("/gui/items.png", "/FemiCraft/textures/items/cutsausage.png");
-Grater.iconIndex = ModLoader.addOverride("/gui/items.png", "/FemiCraft/textures/items/grater.png");
 GratedCheese.iconIndex = ModLoader.addOverride("/gui/items.png", "/FemiCraft/textures/items/gratedcheese.png");
 RawPizza.iconIndex = ModLoader.addOverride("/gui/items.png", "/FemiCraft/textures/items/rawpizza.png");
 Pizza.iconIndex = ModLoader.addOverride("/gui/items.png", "/FemiCraft/textures/items/pizza.png");
@@ -163,7 +161,6 @@ ModLoader.addRecipe(new ItemStack(mod_FemiCraft.Sausage, 8), new Object [] {"  P
 ModLoader.addRecipe(new ItemStack(mod_FemiCraft.Dough, 8), new Object [] {"MMM", "MWM", "MMM", 'M', mod_FemiCraft.Meal, 'W', Item.bucketWater});
 ModLoader.addRecipe(new ItemStack(mod_FemiCraft.RawHotDog, 8), new Object [] {" D ", "KSM", " D ", 'D', mod_FemiCraft.Dough, 'K', mod_FemiCraft.Ketchup, 'S', mod_FemiCraft.Sausage, 'M', mod_FemiCraft.Mayonnaise});
 ModLoader.addRecipe(new ItemStack(mod_FemiCraft.RawHotDog, 8), new Object [] {" D ", "MSK", " D ", 'D', mod_FemiCraft.Dough, 'K', mod_FemiCraft.Ketchup, 'S', mod_FemiCraft.Sausage, 'M', mod_FemiCraft.Mayonnaise});
-ModLoader.addRecipe(new ItemStack(mod_FemiCraft.Grater, 1), new Object [] {" I", "I ", 'I', Item.ingotIron});
 ModLoader.addRecipe(new ItemStack(mod_FemiCraft.RawPizza, 1), new Object [] {"CCC", "SKS", "DDD", 'C', mod_FemiCraft.GratedCheese, 'S', mod_FemiCraft.CutSausage, 'K', mod_FemiCraft.Ketchup, 'D', mod_FemiCraft.Dough});
 ModLoader.addRecipe(new ItemStack(mod_FemiCraft.RawCutlet, 16), new Object [] {"PPP", "PPP", 'P', Item.porkRaw});
 ModLoader.addRecipe(new ItemStack(mod_FemiCraft.RawCutlet, 16), new Object [] {"BBB", "BBB", 'B', Item.beefRaw});
@@ -175,7 +172,6 @@ ModLoader.addRecipe(new ItemStack(mod_FemiCraft.PumpkinJuice, 8), new Object [] 
 ModLoader.addRecipe(new ItemStack(mod_FemiCraft.CaesarSalad, 1), new Object [] {"CRC", "LLL", "SBS", 'C', mod_FemiCraft.GratedCheese, 'R', mod_FemiCraft.Rusks, 'L', mod_FemiCraft.Lettuce, 'S', mod_FemiCraft.Salt, 'B', Item.bowlEmpty});
 ModLoader.addRecipe(new ItemStack(mod_FemiCraft.VegetableSalad, 1), new Object [] {"CTC", "LLL", "SBS", 'C', mod_FemiCraft.CutCarrot, 'T', mod_FemiCraft.CutTomato, 'L', mod_FemiCraft.Lettuce, 'S', mod_FemiCraft.Salt, 'B', Item.bowlEmpty});
 ModLoader.addRecipe(new ItemStack(Item.stick, 16), new Object [] {"  P", " P ", "P  ", 'P', Block.planks});
-ModLoader.addRecipe(new ItemStack(Item.shears, 1), new Object [] {"I ", " I", 'I', Item.ingotIron});
 
 ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.CutApple, 2), new Object[] {Item.appleRed});
 ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.RawFrenchFries, 1), new Object[] {mod_FemiCraft.Potato});
@@ -186,7 +182,7 @@ ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.CutBreadRoll, 2), new O
 ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.CutTomato, 1), new Object[] {mod_FemiCraft.Tomato});
 ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.RawRusks, 8), new Object[] {Item.bread});
 ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.CutCarrot, 1), new Object[] {mod_FemiCraft.Carrot});
-ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.GratedCheese, 8), new Object[] {mod_FemiCraft.Cheese, mod_FemiCraft.Grater});
+ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.GratedCheese, 8), new Object[] {mod_FemiCraft.Cheese});
 ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.PumpkinPie, 1), new Object[] {Block.pumpkin, Item.egg, Item.sugar});
 ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.Meal, 1), new Object[] {Item.wheat});
 ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.ApplePie, 1), new Object[] {Item.appleRed, Item.egg, Item.sugar});
