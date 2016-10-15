@@ -52,10 +52,5 @@ public class RecipesTools
                         });
             }
         }
-
-        par1CraftingManager.addRecipe(new ItemStack(Item.shears), new Object[]
-                {
-                    "# ", " #", '#', Item.ingotIron
-                });
     }
 }
