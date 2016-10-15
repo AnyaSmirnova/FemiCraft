@@ -53,7 +53,6 @@ public class RecipesTools
             }
         }
 
-		// Updated shears recipe. @Anya_Smirnova
         par1CraftingManager.addRecipe(new ItemStack(Item.shears), new Object[]
                 {
                     "# ", " #", '#', Item.ingotIron
