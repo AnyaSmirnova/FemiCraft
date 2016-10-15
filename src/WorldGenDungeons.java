@@ -231,9 +231,8 @@ public class WorldGenDungeons extends WorldGenerator
         {
             return new ItemStack(Item.dyePowder, 1, 3);
         }
-		
-		// Poisonous Potato available in dungeon chest. @Anya_Smirnova
-		if (i == 11)
+	
+	if (i == 11)       
         {
             return new ItemStack(mod_FemiCraft.PoisonousPotato);
         }
