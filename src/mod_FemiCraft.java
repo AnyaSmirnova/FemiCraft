@@ -177,15 +177,15 @@ ModLoader.addRecipe(new ItemStack(mod_FemiCraft.VegetableSalad, 1), new Object [
 ModLoader.addRecipe(new ItemStack(Item.stick, 16), new Object [] {"  P", " P ", "P  ", 'P', Block.planks});
 ModLoader.addRecipe(new ItemStack(Item.shears, 1), new Object [] {"I ", " I", 'I', Item.ingotIron});
 
-ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.CutApple, 2), new Object[] {Item.swordSteel, Item.appleRed});
-ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.RawFrenchFries, 1), new Object[] {Item.swordSteel, mod_FemiCraft.Potato});
-ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.RawBacon, 3), new Object[] {Item.swordSteel, Item.porkRaw});
-ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.CutSausage, 1), new Object[] {Item.swordSteel, mod_FemiCraft.Sausage});
-ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.CutPizza, 8), new Object[] {Item.swordSteel, mod_FemiCraft.Pizza});
-ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.CutBreadRoll, 2), new Object[] {Item.swordSteel, mod_FemiCraft.BreadRoll});
-ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.CutTomato, 1), new Object[] {Item.swordSteel, mod_FemiCraft.Tomato});
-ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.RawRusks, 8), new Object[] {Item.swordSteel, Item.bread});
-ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.CutCarrot, 1), new Object[] {Item.swordSteel, mod_FemiCraft.Carrot});
+ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.CutApple, 2), new Object[] {Item.appleRed});
+ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.RawFrenchFries, 1), new Object[] {mod_FemiCraft.Potato});
+ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.RawBacon, 3), new Object[] {Item.porkRaw});
+ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.CutSausage, 1), new Object[] {mod_FemiCraft.Sausage});
+ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.CutPizza, 8), new Object[] {mod_FemiCraft.Pizza});
+ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.CutBreadRoll, 2), new Object[] {mod_FemiCraft.BreadRoll});
+ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.CutTomato, 1), new Object[] {mod_FemiCraft.Tomato});
+ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.RawRusks, 8), new Object[] {Item.bread});
+ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.CutCarrot, 1), new Object[] {mod_FemiCraft.Carrot});
 ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.GratedCheese, 8), new Object[] {mod_FemiCraft.Cheese, mod_FemiCraft.Grater});
 ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.PumpkinPie, 1), new Object[] {Block.pumpkin, Item.egg, Item.sugar});
 ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.Meal, 1), new Object[] {Item.wheat});
