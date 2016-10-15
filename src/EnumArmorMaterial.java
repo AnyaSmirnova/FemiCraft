@@ -3,19 +3,19 @@ package net.minecraft.src;
 public enum EnumArmorMaterial
 {
     CLOTH(5, new int[] {
-        1, 3, 2, 1
+        0, 0, 0, 0
     }, 15),
-    CHAIN(15, new int[] {
-        2, 5, 4, 1
+    CHAIN(5, new int[] {
+        0, 0, 0, 0
     }, 12),
-    IRON(15, new int[] {
-        2, 6, 5, 2
+    IRON(5, new int[] {
+        0, 0, 0, 0
     }, 9),
-    GOLD(7, new int[] {
-        2, 5, 3, 1
+    GOLD(5, new int[] {
+        0, 0, 0, 0
     }, 25),
-    DIAMOND(33, new int[] {
-        3, 8, 6, 3
+    DIAMOND(5, new int[] {
+        0, 0, 0, 0
     }, 10);
 
     /**
