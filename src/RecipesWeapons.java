@@ -2,7 +2,6 @@ package net.minecraft.src;
 
 public class RecipesWeapons
 {
-	// Update steel sword (now -  steel knife) recipe and delete recipes for other, non-logical swords (knifes). @Anya_Smirnova
     private String recipePatterns[][] =
     {
         {
