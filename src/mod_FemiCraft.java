@@ -175,6 +175,7 @@ ModLoader.addRecipe(new ItemStack(mod_FemiCraft.PumpkinJuice, 8), new Object [] 
 ModLoader.addRecipe(new ItemStack(mod_FemiCraft.CaesarSalad, 1), new Object [] {"CRC", "LLL", "SBS", 'C', mod_FemiCraft.GratedCheese, 'R', mod_FemiCraft.Rusks, 'L', mod_FemiCraft.Lettuce, 'S', mod_FemiCraft.Salt, 'B', Item.bowlEmpty});
 ModLoader.addRecipe(new ItemStack(mod_FemiCraft.VegetableSalad, 1), new Object [] {"CTC", "LLL", "SBS", 'C', mod_FemiCraft.CutCarrot, 'T', mod_FemiCraft.CutTomato, 'L', mod_FemiCraft.Lettuce, 'S', mod_FemiCraft.Salt, 'B', Item.bowlEmpty});
 ModLoader.addRecipe(new ItemStack(Item.stick, 16), new Object [] {"  P", " P ", "P  ", 'P', Block.planks});
+ModLoader.addRecipe(new ItemStack(Item.shears, 1), new Object [] {"I ", " I", 'I', Item.ingotIron});
 
 ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.CutApple, 2), new Object[] {Item.swordSteel, Item.appleRed});
 ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.RawFrenchFries, 1), new Object[] {Item.swordSteel, mod_FemiCraft.Potato});
