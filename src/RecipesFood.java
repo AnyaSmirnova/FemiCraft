@@ -9,7 +9,6 @@ public class RecipesFood
     /**
      * Adds the food recipes to the CraftingManager.
      */
-	// Deleted standard cookie recipe. Added new in mod_FemiCraft.java. @Anya_Smirnova
     public void addRecipes(CraftingManager par1CraftingManager)
     {
         par1CraftingManager.addShapelessRecipe(new ItemStack(Item.bowlSoup), new Object[]
