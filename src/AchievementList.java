@@ -128,9 +128,9 @@ public class AchievementList
         onARail = (new Achievement(11, "onARail", 2, 3, Block.rail, acquireIron)).setSpecial().registerAchievement();
         buildSword = (new Achievement(12, "buildSword", 0, 3, Item.swordSteel, acquireIron)).registerAchievement();
         killEnemy = (new Achievement(13, "killEnemy", -2, 3, Item.bone, buildSword)).registerAchievement();
-        killCow = (new Achievement(14, "killCow", 0, 1, Item.leather, buildSword)).registerAchievement();
-        flyPig = (new Achievement(15, "flyPig", 8, -4, Item.saddle, killCow)).setSpecial().registerAchievement();
-        snipeSkeleton = (new Achievement(16, "snipeSkeleton", -4, 3, Item.bow, killEnemy)).setSpecial().registerAchievement();
+        killCow = (new Achievement(14, "killCow", -1, 2, Item.leather, buildSword)).registerAchievement();
+        flyPig = (new Achievement(15, "flyPig", -3, 2, Item.saddle, killCow)).setSpecial().registerAchievement();
+        snipeSkeleton = (new Achievement(16, "snipeSkeleton", -2, 1, Item.bow, killEnemy)).setSpecial().registerAchievement();
         diamonds = (new Achievement(17, "diamonds", -1, 5, Item.diamond, acquireIron)).registerAchievement();
         portal = (new Achievement(18, "portal", -1, 7, Block.obsidian, diamonds)).registerAchievement();
         ghast = (new Achievement(19, "ghast", -4, 8, Item.ghastTear, portal)).setSpecial().registerAchievement();
