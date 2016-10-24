@@ -139,7 +139,7 @@ public class AchievementList
         theEnd = (new Achievement(22, "theEnd", 3, 10, Item.eyeOfEnder, blazeRod)).setSpecial().registerAchievement();
         theEnd2 = (new Achievement(23, "theEnd2", 4, 13, Block.dragonEgg, theEnd)).setSpecial().registerAchievement();
         enchantments = (new Achievement(24, "enchantments", -4, 4, Block.enchantmentTable, diamonds)).registerAchievement();
-        overkill = (new Achievement(25, "overkill", -4, 1, Item.swordGold, enchantments)).setSpecial().registerAchievement();
+        overkill = (new Achievement(25, "overkill", -4, 1, mod_FemiCraft.FemiCraftKnife, enchantments)).setSpecial().registerAchievement();
         bookcase = (new Achievement(26, "bookcase", -3, 6, Block.bookShelf, enchantments)).registerAchievement();
         System.out.println((new StringBuilder()).append(achievementList.size()).append(" achievements").toString());
     }
