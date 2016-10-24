@@ -6,6 +6,7 @@ public class mod_FemiCraft extends BaseMod
         {
 
 public static final Item PigmanSword = (new ItemSword(203, EnumToolMaterial.HELL)).setItemName("PigmanSword");
+public static final Item FemiCraftKnife = (new ItemSword(204, EnumToolMaterial.EMERALD)).setItemName("FemiCraftKnife");
 public static final Item DirtySalt = new Item(5000).setItemName("DirtySalt");
 public static final Item Salt = new ItemFood(5001, 1, 0.1F, false).setPotionEffect(Potion.harm.id, 1, 0, 0.2F).setItemName("Salt");
 public static final Item ButterBottle = new FCNonStackItem(5004).setItemName("ButterBottle");
