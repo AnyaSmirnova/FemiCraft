@@ -89,6 +89,7 @@ public void load()
         {
 
 PigmanSword.iconIndex = ModLoader.addOverride("/gui/items.png", "/FemiCraft/textures/items/pigmansword.png");
+FemiCraftKnife.iconIndex = ModLoader.addOverride("/gui/items.png", "/FemiCraft/textures/items/femicraftknife.png");
 DirtySalt.iconIndex = ModLoader.addOverride("/gui/items.png", "/FemiCraft/textures/items/dirtysalt.png");
 Salt.iconIndex = ModLoader.addOverride("/gui/items.png", "/FemiCraft/textures/items/salt.png");
 ButterBottle.iconIndex = ModLoader.addOverride("/gui/items.png", "/FemiCraft/textures/items/butterbottle.png");
