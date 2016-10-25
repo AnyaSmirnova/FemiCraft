@@ -21,15 +21,15 @@ public class RecipesArmor
         recipeItems = (new Object[][]
                 {
                     new Object[] {
-                        Item.leather, Item.silk, Item.ingotIron, Item.diamond, Item.ingotGold
+                        Item.leather, Item.ingotIron, Item.diamond, Item.ingotGold
                     }, new Object[] {
-                        Item.helmetLeather, Item.helmetChain, Item.helmetSteel, Item.helmetDiamond, Item.helmetGold
+                        Item.helmetLeather, Item.helmetSteel, Item.helmetDiamond, Item.helmetGold
                     }, new Object[] {
-                        Item.plateLeather, Item.plateChain, Item.plateSteel, Item.plateDiamond, Item.plateGold
+                        Item.plateLeather, Item.plateSteel, Item.plateDiamond, Item.plateGold
                     }, new Object[] {
-                        Item.legsLeather, Item.legsChain, Item.legsSteel, Item.legsDiamond, Item.legsGold
+                        Item.legsLeather, Item.legsSteel, Item.legsDiamond, Item.legsGold
                     }, new Object[] {
-                        Item.bootsLeather, Item.bootsChain, Item.bootsSteel, Item.bootsDiamond, Item.bootsGold
+                        Item.bootsLeather, Item.bootsSteel, Item.bootsDiamond, Item.bootsGold
                     }
                 });
     }
