@@ -62,6 +62,8 @@ public static final Item Rusks = new ItemFood(5056, 1, 0.1F, false).setItemName(
 public static final Item CaesarSalad = new ItemSoup(5057, 8).setPotionEffect(Potion.regeneration.id, 10, 0, 1F).setItemName("CaesarSalad");
 public static final Item CutCarrot = new Item(5058).setItemName("CutCarrot");
 public static final Item VegetableSalad = new ItemSoup(5059, 4).setPotionEffect(Potion.regeneration.id, 5, 0, 1F).setItemName("VegetableSalad");
+public static final Item IronNugget = new Item(5060).setItemName("IronNugget");
+public static final Item DiamondNugget = new Item(5061).setItemName("DiamondNugget");
 
 public static final Block SaltOre = new BlockOre(160, 0).setStepSound(Block.soundStoneFootstep).setBlockName("SaltOre").setHardness(3F).setResistance(15F);
 
