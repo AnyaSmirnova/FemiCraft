@@ -147,6 +147,8 @@ CaesarSalad.iconIndex = ModLoader.addOverride("/gui/items.png", "/FemiCraft/text
 CutCarrot.iconIndex = ModLoader.addOverride("/gui/items.png", "/FemiCraft/textures/items/cutcarrot.png");
 VegetableSalad.iconIndex = ModLoader.addOverride("/gui/items.png", "/FemiCraft/textures/items/vegetablesalad.png");
 CarrotSoup.iconIndex = ModLoader.addOverride("/gui/items.png", "/FemiCraft/textures/items/carrotsoup.png");
+IronNugget.iconIndex = ModLoader.addOverride("/gui/items.png", "/FemiCraft/textures/items/ironnugget.png");
+DiamondNugget.iconIndex = ModLoader.addOverride("/gui/items.png", "/FemiCraft/textures/items/diamondnugget.png");
 
 SaltOre.blockIndexInTexture = ModLoader.addOverride("/terrain.png", "/FemiCraft/textures/blocks/saltore.png");
 
