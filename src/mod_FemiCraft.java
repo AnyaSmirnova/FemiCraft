@@ -180,7 +180,7 @@ ModLoader.addRecipe(new ItemStack(mod_FemiCraft.VegetableSalad, 1), new Object [
 ModLoader.addRecipe(new ItemStack(Item.stick, 16), new Object [] {"  P", " P ", "P  ", 'P', Block.planks});
 ModLoader.addRecipe(new ItemStack(Item.shears, 1), new Object [] {"I ", " I", 'I', Item.ingotIron});
 ModLoader.addRecipe(new ItemStack(Item.ingotIron, 1), new Object [] {"NNN", "NNN", "NNN", 'N', mod_FemiCraft.IronNugget});
-ModLoader.addRecipe(new ItemStack(Item.emerald, 1), new Object [] {"NNN", "NNN", "NNN", 'N', mod_FemiCraft.DiamondNugget});
+ModLoader.addRecipe(new ItemStack(Item.diamond, 1), new Object [] {"NNN", "NNN", "NNN", 'N', mod_FemiCraft.DiamondNugget});
 
 ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.CutApple, 2), new Object[] {Item.appleRed});
 ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.RawFrenchFries, 1), new Object[] {mod_FemiCraft.Potato});
@@ -199,7 +199,7 @@ ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.BaconAndEggs, 1), new O
 ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.RawSausageInTheDough, 1), new Object[] {mod_FemiCraft.Sausage, mod_FemiCraft.Dough});
 ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.CarrotSoup, 1), new Object[] {mod_FemiCraft.Carrot, mod_FemiCraft.Carrot, Item.bowlEmpty});
 ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.IronNugget, 9), new Object[] {Item.ingotIron});
-ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.DiamondNugget, 9), new Object[] {Item.emerald});
+ModLoader.addShapelessRecipe(new ItemStack(mod_FemiCraft.DiamondNugget, 9), new Object[] {Item.diamond});
 
 ModLoader.addSmelting(mod_FemiCraft.SaltOre.blockID, new ItemStack(mod_FemiCraft.Salt, 1));
 ModLoader.addSmelting(mod_FemiCraft.DirtySalt.shiftedIndex, new ItemStack(mod_FemiCraft.Salt, 1));
