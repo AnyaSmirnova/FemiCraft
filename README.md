@@ -1,3 +1,6 @@
+I am bad know English, so text can be translated wrong! Sorry for the inconvenience! @Anya_Smirnova
+=
+
 Welcome to FemiCraft!
 FemiCraft is a huge client MineCraft 1.2.5 using the global mod "FemiCraft Mod" (This mod made by us).
 The client was initially designed just for the female audience, but then we realized that many men like to play this kind of game...
