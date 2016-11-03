@@ -8,10 +8,9 @@ So we decided to make this client "for all".
 
 In this client you will play for a girl... Yes, girl... 
 This is why we changed not only the skin, but also turned the whole MineCraft:
-swords were replaced by knives, has made lots of women's clothing, kitchen items... 
-And we not going to stop! We have plans for many more updates!
+swords were replaced by knives, has made lots of women's clothing, kitchen items and other...
 
-ATTENTION! In the client there are no scenes of violence, but to download I recommend to people 16 years and over. You can download and to 16, but take responsibility for yourself! (FemiCraft Wiki also contains materials 16 years of age and older!)
+ATTENTION! In the client there are no scenes of violence, but to download I recommend to people 16 years and over. You can download and to 16, but take responsibility for yourself!
 =
 
 Detailed information about the client you can find here:
